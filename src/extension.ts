@@ -56,4 +56,4 @@ function showPreview(uri?: Uri, sideBySide: boolean = false): Thenable<{}> {
         `Preview '${path.basename(resource.fsPath)}'`
     );
     return thenable;
-  }
+}
