@@ -3,7 +3,7 @@
     "displayName": "md2mail",
     "description": "",
     "version": "0.1.0",
-    "publisher": "Minato Sato",
+    "publisher": "satopirka",
     "engines": {
         "vscode": "^1.17.0"
     },
