@@ -1,6 +1,8 @@
 {
     "name": "md2mail",
     "displayName": "md2mail",
+    "repository": "md2mail",
+    "license": "MIT",
     "description": "",
     "version": "0.1.0",
     "publisher": "satopirka",
@@ -18,7 +20,7 @@
         "commands": [
             {
                 "command": "md2mail.showPreview",
-                "title": "Open Preview (md2mail)"
+                "title": "Open Preview and Save to .txt (md2mail)"
               }
         ]
     },
