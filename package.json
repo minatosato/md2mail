@@ -4,7 +4,7 @@
     "repository": "md2mail",
     "license": "MIT",
     "description": "",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "satopirka",
     "engines": {
         "vscode": "^1.17.0"
@@ -21,7 +21,7 @@
             {
                 "command": "md2mail.showPreview",
                 "title": "Open Preview and Save to .txt (md2mail)"
-              }
+            }
         ]
     },
     "scripts": {
@@ -42,5 +42,5 @@
         "txt-ast-traverse": "^1.2.1",
         "watchify": "^3.9.0",
         "word-table": "^1.0.0"
-      }
+    }
 }
