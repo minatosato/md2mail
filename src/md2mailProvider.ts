@@ -29,7 +29,7 @@ export class MailDocumentContentProvider implements vscode.TextDocumentContentPr
             let body = document.getText();
             body = convert(body);
             this.raw_body = body;
-            this.saveToText(uri);
+            // this.saveToText(uri);
             body = replaceAll(body, ' ', '&nbsp;');
             body = replaceAll(body, '　', '&nbsp;&nbsp;');
             body = replaceAll(body, '\n', '<br>');
